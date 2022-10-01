@@ -1,5 +1,6 @@
 {
-  "name": "rncourse",
+  "name": "goals-app",
+  "slug": "Divyankar-goals",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
@@ -7,6 +8,17 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web"
+  },
+  "android": {
+    "versionCode": 1,
+    "adaptiveIcon": {
+      "foregroundImage": "./assets/adaptive-icon.png",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "ios": {
+    "buildNumber": "1.0.0",
+    "supportsTablet": true
   },
   "dependencies": {
     "expo": "~46.0.9",
